@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "misaki";
+  src: url("/fonts/misaki.ttf") format("truetype");
+}
+
+body {
+  font: 1.2em "misaki", sans-serif;
+  font-stretch: semi-expanded;
+  text-align: center;
+}
+
+ul, ol {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.p-image {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background: #00FFFF;
+}
+
+.p-image img {
+  display: block;
+  width: 90%;
+}
+
+.p-contents {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+}
