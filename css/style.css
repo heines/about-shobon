@@ -1,6 +1,6 @@
 @font-face {
   font-family: "misaki";
-  src: url("/fonts/misaki.ttf") format("truetype");
+  src: url("../fonts/misaki.ttf") format("truetype");
 }
 
 body {
